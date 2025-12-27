@@ -23,14 +23,19 @@ export default function ContactPage() {
 
       {/* Contact Cards */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 px-4 py-14">
-        {/* Head Office */}
+        {/* Head Office - Updated to new Delhi address */}
         <motion.div whileHover={{ scale: 1.02 }} className="bg-white rounded-2xl shadow-xl p-10 text-center">
           <div className="mx-auto w-20 h-20 bg-red-600 rounded-full flex items-center justify-center mb-6">
             <FaLocationPin className="text-white text-3xl" />
           </div>
 
           <h2 className="text-xl font-semibold mb-2">Head Office</h2>
-          <p className="text-gray-600 text-sm mb-1">1/56D, Lalita Park, Laxmi Nagar, Delhi-110092</p>
+          <p className="text-gray-600 text-sm mb-1">
+            E-251/B Gali no 4,<br />
+            First floor,<br />
+            Khajoori Khas 110094<br />
+            near Adarsh Lakhpat model secondary school
+          </p>
           <p className="text-gray-600 text-sm mb-1">E-mail: info@alphaservices.in</p>
           <p className="text-gray-600 text-sm mb-4">Call: +91-95998 65474</p>
 
@@ -61,13 +66,19 @@ export default function ContactPage() {
 
       {/* Google Maps */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 px-4 pb-16">
+        {/* Updated map for Khajoori Khas (Delhi) */}
         <iframe
           className="w-full h-80 rounded-xl shadow-lg"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.30760138057!2d77.27839027549238!3d28.5908369756828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5d1e046c53f%3A0x4bb7a4484a1c2cc2!2sLalita%20Park%2C%20Laxmi%20Nagar%2C%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d874.8595508426001!2d77.26306745334287!3d28.706447495742367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQyJzI0LjUiTiA3N8KwMTUnNDcuMiJF!5e0!3m2!1sen!2sin!4v1766838028311!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
 
+        {/* Pune map remains the same */}
         <iframe
           className="w-full h-80 rounded-xl shadow-lg"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.768884451721!2d73.85010817537283!3d18.538647682546424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c2362b8d715f%3A0x8a8f3ea0e327669c!2sBhosari%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000001"
@@ -89,7 +100,7 @@ export default function ContactPage() {
             <textarea placeholder="Message" rows="4" className="w-full p-4 border rounded-xl focus:ring-2 focus:ring-red-500 outline-none"></textarea>
 
             <button className="w-full bg-red-600 text-white py-4 rounded-xl text-lg font-semibold hover:bg-red-700 transition">
-              Get A Quatation
+              Get A Quotation
             </button>
           </form>
         </div>
