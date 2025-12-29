@@ -17,7 +17,7 @@ export default function Achievements() {
             </p>
             <div className="w-12 h-0.5 bg-red-600 mx-auto"></div>
             <h2 className="mt-4 text-4xl font-extrabold text-gray-900">
-              Our Achievements
+              Our Certificates
             </h2>
             <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
               Recognitions and official documents that demonstrate our legal
