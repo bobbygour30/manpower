@@ -114,7 +114,7 @@ const SecurityEscortServicePage = () => {
                 Security Escort Services
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                For cash transport or a V.I.P person, security is a must. We at Alpha Manpower Services Pvt. Ltd. provide
+                For cash transport or a V.I.P person, security is a must. We at JMS Aries Pvt. Ltd. provide
                 trained, armed and trustable security personnel for escorting service.
               </p>
 

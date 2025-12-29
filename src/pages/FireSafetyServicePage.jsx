@@ -116,7 +116,7 @@ const FireSafetyServicePage = () => {
               </h2>
               <p className="text-gray-600 leading-relaxed">
                 Fire safety is equally important on any premises. The government of India has made it mandatory that all
-                public places be equipped with proper fire safety measures and equipment. We at Alpha Manpower Services
+                public places be equipped with proper fire safety measures and equipment. We at JMS Aries
                 Pvt. Ltd. provide fire safety equipment and maintenance of the equipment.
               </p>
 

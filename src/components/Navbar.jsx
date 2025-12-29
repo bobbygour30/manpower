@@ -10,7 +10,7 @@ const Navbar = () => {
   const hoverTimeout = useRef(null);
 
   const contactInfo = {
-    email: "info@alphaservices.in",
+    email: "info@jmsaries.in",
     phone: "+91-9898985474",
     careers: "Careers",
   };
@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="bg-gray-800 text-white py-2 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex justify-between items-center text-sm flex-wrap">
           <div className="hidden sm:block">
-            Alpha Manpower Services Pvt. Ltd - <strong>Service with Integrity</strong>
+            JMS Aries Pvt. Ltd - <strong>Service with Integrity</strong>
           </div>
 
           <div className="flex items-center space-x-4 md:space-x-6 text-xs sm:text-sm">
@@ -73,7 +73,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="block">
               <div className="text-2xl font-bold text-gray-800 tracking-wide leading-none">
-                <span className="text-red-600">L</span>PHA
+                <span className="text-red-600">JMS</span>Aries
               </div>
               <div className="text-xs text-gray-600 mt-1">
                 Manpower Services Pvt. Ltd.

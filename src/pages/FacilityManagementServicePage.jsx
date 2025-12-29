@@ -152,7 +152,7 @@ const FacilityManagementServicePage = () => {
               </h2>
               <p className="text-gray-600 leading-relaxed mb-8">
                 Facility management ensures the functionality, comfort, safety, sustainability and efficiency of the
-                company. We at Alpha manpower provide both hard services (building operation and maintenance) and soft
+                company. We at JMS Aries provide both hard services (building operation and maintenance) and soft
                 services (support services, and energy management services).
               </p>
 

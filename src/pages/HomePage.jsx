@@ -7,6 +7,7 @@ import AlphaEdgeSection from '../components/AlphaEdgeSection.jsx'
 import LogoSlider from '../components/LogoSlider.jsx'
 import TestimonialsCarousel from '../components/TestimonialsCarousel.jsx'
 import Footer from '../components/Footer.jsx'
+import Achievements from '../components/Achievements.jsx'
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
         <AboutSection />
         <ServicesGrid />
         <AlphaEdgeSection />
+        <Achievements />
         <LogoSlider />
         <TestimonialsCarousel />
 

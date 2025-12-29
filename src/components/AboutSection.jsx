@@ -7,27 +7,22 @@ const AboutSection = () => {
     <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
       
       {/* Main Grid Layout: Two columns on medium screens and up */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+      <div className="flex  gap-12 items-center">
         
-        {/* === Left Column: Video/Image Container === */}
-        <div className="md:order-1 order-2">
+        
+        {/* <div className="md:order-1 order-2">
           <div className="relative pt-[56.25%] shadow-2xl rounded-lg overflow-hidden"> 
-            {/* Aspect ratio box (16:9) for the video embed */}
-            
-            {/* NOTE: For a real application, you would replace this with a 
-              YouTube or Vimeo embed code, or an HTML5 video player.
-              We are using a placeholder iframe here to match the image structure.
-            */}
+           
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" // Placeholder video URL
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" 
               title="Security Guard Management System | Novagems"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
 
-            {/* Simulated Overlay content from the image if needed */}
+            
             <div className="absolute top-4 left-4 text-white text-sm bg-black bg-opacity-40 p-1 rounded flex items-center">
               <Shield className="w-4 h-4 mr-1" /> 
               Security Guard Management System | Novagems
@@ -36,10 +31,10 @@ const AboutSection = () => {
                 Copy link
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* === Right Column: Content and Services === */}
-        <div className="md:order-2 order-1 space-y-6">
+        <div className=" space-y-6">
           
           {/* Section Header */}
           <div>
@@ -51,7 +46,7 @@ const AboutSection = () => {
 
           {/* Description Paragraph */}
           <p className="text-gray-600 text-lg">
-            Alpha Manpower Service Pvt Ltd is one of the most reliable service
+           JMS Aries Pvt Ltd is one of the most reliable service
             providers engaged in offering Security Guards & Facility Management
             Services across PAN India for more than 18 years. Initially started in Delhi,
             we now have our offices in some of the major cities in India....

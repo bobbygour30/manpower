@@ -49,11 +49,11 @@ export default function AboutPage() {
           </h2>
 
           <h3 className="text-3xl md:text-4xl font-semibold mb-6">
-            Alpha Manpower Services Pvt. Ltd.
+            JMS Aries Pvt. Ltd.
           </h3>
 
           <p className="text-gray-600 leading-relaxed mb-6 text-sm md:text-base">
-            Alpha Manpower Service Pvt Ltd is one of the most reliable service providers engaged in
+            JMS Aries Pvt Ltd is one of the most reliable service providers engaged in
             offering Security Guards & Facility Management Services across PAN India for more than
             18 years. Initially started in Delhi, we now have our offices in some of the major
             cities in India. "Your security is our priority" is the motto that we live by. Our
@@ -87,7 +87,7 @@ export default function AboutPage() {
           {/* Why Choose Us */}
           <h4 className="text-xl font-semibold mt-8 mb-3">Why choose us?</h4>
           <p className="text-gray-600 mb-4 text-sm md:text-base">
-            When it comes to security, we know you deserve the best. With Alpha manpower services,
+            When it comes to security, we know you deserve the best. With JMS Aries Pvt Ltd,
             we guarantee that you will receive premium customer service and excellent hospitality.
             Some of the salient features that make us favored among our patrons are:
           </p>
