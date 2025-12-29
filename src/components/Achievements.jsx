@@ -37,7 +37,7 @@ export default function Achievements() {
                 <img
                   src={assets.certificate}
                   alt="Certificate"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full  group-hover:scale-105 transition-transform duration-500"
                 />
 
                 {/* Overlay */}
@@ -135,24 +135,30 @@ export default function Achievements() {
       </section>
 
       {/* ================= IMAGE MODAL ================= */}
-      {openImage && (
-        <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center px-4">
-          <div className="relative max-w-4xl w-full max-h-[90vh]">
-            <button
-              onClick={() => setOpenImage(false)}
-              className="absolute -top-10 right-0 text-white hover:text-red-500 transition"
-            >
-              <X className="w-7 h-7" />
-            </button>
+{openImage && (
+  <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center px-4">
+    
+    {/* Modal Wrapper */}
+    <div className="relative w-full max-w-5xl max-h-[90vh] overflow-auto rounded-xl">
+      
+      {/* Close Button */}
+      <button
+        onClick={() => setOpenImage(false)}
+        className="absolute top-4 right-4 z-10 bg-black/60 p-2 rounded-full text-white hover:text-red-500 transition"
+      >
+        <X className="w-6 h-6" />
+      </button>
 
-            <img
-              src={assets.certificate}
-              alt="Full Certificate"
-              className="w-full h-full object-contain rounded-xl"
-            />
-          </div>
-        </div>
-      )}
+      {/* Image */}
+      <img
+        src={assets.certificate}
+        alt="Full Certificate"
+        className="w-full h-auto object-contain rounded-xl"
+      />
+    </div>
+  </div>
+)}
+
     </>
   );
 }

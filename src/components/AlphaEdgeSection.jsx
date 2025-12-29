@@ -74,7 +74,7 @@ const AlphaEdgeSection = () => {
           <p className="text-sm font-semibold text-red-600 uppercase tracking-wider mb-2">FEATURES</p>
           <div className="w-12 h-0.5 bg-red-600 mx-auto"></div>
           <h2 className="mt-4 text-4xl font-extrabold text-gray-900">
-            Alpha Edge
+            JMS Edge
           </h2>
         </div>
 
