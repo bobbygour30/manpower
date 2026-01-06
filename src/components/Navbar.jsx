@@ -11,8 +11,7 @@ const Navbar = () => {
 
   const contactInfo = {
     email: "info@jmsaries.in",
-    phone: "+91-9898985474",
-    careers: "Careers",
+    phone: "+91 93113 40122",
   };
 
   const services = [
@@ -56,12 +55,7 @@ const Navbar = () => {
             >
               <Phone className="w-4 h-4 mr-1" /> {contactInfo.phone}
             </a>
-            <Link
-              to="/careers"
-              className="flex items-center hover:text-red-400 transition-colors"
-            >
-              <Briefcase className="w-4 h-4 mr-1" /> {contactInfo.careers}
-            </Link>
+           
           </div>
         </div>
       </div>

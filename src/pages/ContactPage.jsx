@@ -53,7 +53,7 @@ export default function ContactPage() {
             near Adarsh Lakhpat model secondary school
           </p>
           <p className="text-gray-600 text-sm mb-1">E-mail: info@jmsaries.in</p>
-          <p className="text-gray-600 text-sm mb-4">Call: +91-95998 65474</p>
+          <p className="text-gray-600 text-sm mb-4">Call: +91 93113 40122</p>
 
           <h3 className="font-semibold mb-3">Social Connect</h3>
           <div className="flex justify-center gap-5 text-xl text-gray-700">
